@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projects | ggtiny</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Fira+Code:wght@300..700&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <a href="/index.html"><h1 class="back">Back</h1></a>
+        <h1 class="projects">Projects</h1>
+        <div class="gp">
+            <h1 class="gph1">GitPrint</h1>
+            <h2 class="gph2">Simple API tool that lets you access an users profile information
+
+            </h2>
+            <img src="/home/githubv2.png" class="ghpng">
+            <a href="gitprint.py" download=""><img src="downloadv2.png" class="download"></a>
+        </div>
+    </body>
+    <style>
+        .back:hover{
+            transform:scale(1.155);
+
+        }
+        .back{
+            text-align: left;
+            display:inline-block;
+            font-family: "Cascadia Code",monospace;
+            font-style:italic;
+            margin-left:10px;
+            margin-top:10px;
+            color:rgb(203, 33, 203);
+            transition: 0.3s;
+        }
+        .ghpng:hover{
+            transform:scale(1.08) rotate(-5deg);
+        }
+        .download:hover{
+            transform:scale(1.08) rotate(4deg);
+        }
+        .download{
+            max-width:60px;
+            position:absolute;
+            top:10px;
+            right:75px;
+            transition:0.3s;
+        }
+        .ghpng{
+            max-width: 50px;
+            position:absolute;
+            top:15px;
+            right:15px;
+            transition:0.3s;
+            
+        }
+        .gp:hover{
+            transform: scale(1.09);
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .gph2{
+            text-align: left;
+            font-size:25px;
+            margin-top: 30px;
+            font-family: "Cascadia Code",monospace;
+            font-style:italic;
+            color:#9A93A8;
+        }
+        .gph1{
+            text-align: left;
+            font-size:40px;
+            margin-top: 10px;
+            font-family: "Cascadia Code",monospace;
+            font-style:italic;
+            color:rgb(203, 33, 203);
+        }
+        .gp{
+            position:relative;
+            max-width:500px;
+            margin:70px auto;
+            padding:30px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.18);
+            backdrop-filter: blur(8px);
+            transition:0.4s;
+            
+        }
+        body{
+            background: linear-gradient(#152331,#1a1a1a);
+            min-height: 100vh;
+        }
+        .projects{
+            text-align: center;
+            font-size:75px;
+            justify-content:space-between;
+            margin-top: 25px;
+            font-family: "Cascadia Code",monospace;
+            font-style:italic;
+            color:rgb(203, 33, 203);
+            margin-left: 20px;
+        }
+    </style>
+</html>
