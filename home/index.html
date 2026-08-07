@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Fira+Code:wght@300..700&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>ggtiny/ home</title>
+    </head>
+
+    <body>
+        <div class="home">
+        <a class="back" href="../index.html">Back</a>
+        <h1 class="mytitle">Hi, i am <a class="tinydev" href="https://github.com/ggtiny">tinyDev</a>!</h1>
+        <h2 class="subtitle">Beginner developer & Android modder</h2>
+        <h1 class="aboutme"><a class="asterix">*</a> About me</h1>
+        <h2 class="abmeinfo">I like coding and android phones, usually older ones.</h2>
+        <h1 class="devices">My Devices:</h1>
+        <h2 class="samsaj5">Samsung Galaxy J5 (2017)</h2>
+        <h2 class="motog30">Motorola G30 (2021)</h2>
+        <h1 class="languages">Programming Languages:</h1>
+        <h2 class="py">Python (well)</h2>
+        <h2 class="bash">Bash (decent)</h2>
+        <h2 class="c">C (little bit)</h2>
+        <a href="https://github.com/ggtiny" target="_blank"><img src="githubv2.png" class="github"></a>
+        <a href="https://xdaforums.com/m/tinydev_.13444641/" target="_blank"><img src="xdaf.png" class="xda"></a>
+        </div>
+
+    </body>
+    <style>
+        .asterix{
+            display:inline-block;
+            transform:rotate(360deg);
+            transition:1.2s;
+        }
+        .asterix:hover{
+            transform:rotate(-360deg);
+
+        }
+        .back:hover{
+            transform: scale(1.2);
+            color:rgb(245, 67, 67);
+        }
+        .back{
+            display:inline-block;
+            text-align:left;
+            font-size:20px;
+            font-style:italic;
+            font-family:"Cascadia Code",monospace;
+            color: #a3f2c6;
+            margin-left:0px;
+            text-decoration: none;
+            transition:0.3s ease;
+        }
+        .xda:hover{
+            transform:translateX(-5px) scale(1.2);
+        }
+        .github:hover{
+            transform:translateX(-5px) scale(1.2);
+        }
+        .xda{
+            position:absolute;
+            display:block;
+            max-width:55px;
+            top:818px;
+            right:10px;
+            transition:0.3s;
+        }
+        .github{
+            position:absolute;
+            display:block;
+            max-width:41px;
+            top:823px;
+            right:73px;
+            transition:0.3s;
+        }
+        .home{
+            max-width:1060px;
+            margin:35px auto;
+            padding:30px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(8px);
+        }
+        .c{
+            text-align:left;
+            font-size:33px;
+            font-style:italic;
+            font-family:"Cascadia Code",monospace;
+            color: #dfe5e9;
+            margin-left:25px;  
+        }
+        .bash{
+            text-align:left;
+            font-size:33px;
+            font-style:italic;
+            font-family:"Cascadia Code",monospace;
+            color: #dfe5e9;
+            margin-left:25px; 
+        }
+        .py{
+            text-align:left;
+            font-size:33px;
+            font-style:italic;
+            font-family:"Cascadia Code",monospace;
+            color: #dfe5e9;
+            margin-left:25px;
+        }
+        .languages{
+            text-align:left;
+            font-size:33px;
+            font-style:italic;
+            font-family:"Cascadia Code",monospace;
+            color: #358fc0;
+            margin-left:5px;
+        }
+        .motog30{
+            text-align:left;
+            font-size:33px;
+            font-style:italic;
+            font-family:"Cascadia Code",monospace;
+            color: #dfe5e9;
+            margin-left:25px;
+        }
+        
+        .samsaj5{
+            text-align:left;
+            font-size:33px;
+            font-style:italic;
+            font-family:"Cascadia Code",monospace;
+            color: #dfe5e9;
+            margin-left:25px;
+        }
+        .devices{
+            text-align:left;
+            font-size:33px;
+            font-style:italic;
+            font-family:"Cascadia Code",monospace;
+            color: #33de7a;
+            margin-left:10px;
+        }
+        .tinydev{
+            display:inline-block;
+            text-decoration: none;
+            color:#dfe5e9;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+        .tinydev:hover{
+            color:rgb(179, 194, 14);
+            text-decoration: none;
+            transform: scale(1.057) rotate(-2deg);
+        }
+        .abmeinfo{
+            text-align:left;
+            font-size:33px;
+            font-style:italic;
+            font-family:"Cascadia Code",monospace;
+            color: #d1e4dc;
+            margin-left:10px;
+        }
+        
+        body{
+            background: linear-gradient(#152331,#303030);
+            background-repeat:no-repeat;
+            background-size:cover;
+            min-height:100vh;
+        }
+        .mytitle{
+            text-align: center;
+            color: #dfe5e9;
+            font-size:50px;
+            font-family: "Cascadia Code",monospace;
+            font-style: italic;
+            font-weight:600;
+        }
+        .subtitle{
+            text-align:center;
+            color:#8aefb7;
+            font-size: 30px;
+            font-style:italic;
+            font-family:"Cascadia Code",monospace;
+        }
+        .aboutme{
+            text-align: left;
+            color: rgba(203, 33, 203, 0.765);
+            font-size:45px;
+            font-family: "Cascadia Code",monospace;
+            font-style: italic;
+            font-weight:600;
+        }
+
+    </style>
+</html>
